@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Warranty USA 2026</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 20px auto; padding: 20px; background-color: #f4f4f9; }
+        .wizard-box { background: white; padding: 20px; border: 2px solid #007bff; border-radius: 10px; margin-bottom: 30px; text-align: center; }
+        .step { display: none; }
+        .active { display: block; }
+        .blog-card { background: white; padding: 15px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        img { width: 100%; max-height: 300px; object-fit: cover; border-radius: 5px; margin: 10px 0; }
+        button { padding: 10px 20px; cursor: pointer; background: #007bff; color: white; border: none; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+    <h1>Auto Warranty USA 2026</h1>
+
+    <div class="wizard-box">
+        <div id="step1" class="step active">
+            <h2>Step 1: Get Instant Quotes</h2>
+            <p>Apni gaari ki details enter karen aur 2 minute mein quotes hasil karen.</p>
+            <button onclick="changeStep(2)">Next Step</button>
+        </div>
+        <div id="step2" class="step">
+            <h2>Step 2: Compare Plans</h2>
+            <p>Mukhtalif insurance aur warranty plans ka mawazna karen.</p>
+            <button onclick="changeStep(1)">Back</button>
+            <button onclick="changeStep(3)">Next Step</button>
+        </div>
+        <div id="step3" class="step">
+            <h2>Step 3: Final Selection</h2>
+            <p>Apna best plan chunein aur coverage activate karen.</p>
+            <button onclick="changeStep(2)">Back</button>
+        </div>
+    </div>
+
+    <h2>Latest Auto Warranty Insights</h2>
+    
+    <div class="blog-card">
+        <h3>1. Top 5 Auto Warranty Providers in the USA (2026)</h3>
+        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2" alt="Warranty">
+        <p>Endurance aur CarShield 2026 mein USA ke top rated hain jo comprehensive coverage offer kar rahe hain.</p>
+    </div>
+
+    <div class="blog-card">
+        <h3>2. Why Extended Warranty is Crucial for Modern Cars</h3>
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" alt="Cars">
+        <p>Advanced sensors aur electrical components ki wajah se repair costs $3,800 se oper nikal chuke hain.</p>
+    </div>
+
+    <div class="blog-card">
+        <h3>3. Factory Warranty vs Extended Warranty: What's the Difference?</h3>
+        <img src="https://images.unsplash.com/photo-1594897030264-ab7d87efc477" alt="Maintenance">
+        <p>Factory warranty ke expire hone ke baad extended warranty hi aapko mechanical failure se bacha sakti hai.</p>
+    </div>
+
+    <div class="blog-card">
+        <h3>4. How to Spot an Auto Warranty Scam in 2026</h3>
+        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8317d" alt="Security">
+        <p>FTC ki latest guidelines ke mutabiq, hamesha verify karen ke company licensed hai ya nahi.</p>
+    </div>
+
+    <div class="blog-card">
+        <h3>5. The Future of Auto Protection: Predictive Maintenance</h3>
+        <img src="https://images.unsplash.com/photo-1619642751034-7b82df6d28b0" alt="Tech">
+        <p>IoT aur AI-driven diagnostics ke zariye 2026 mein kharabiyon ka pehle se andaza lagana mumkin ho gaya hai.</p>
+    </div>
+
+    <script>
+        function changeStep(s) {
+            document.querySelectorAll('.step').forEach(el => el.classList.remove('active'));
+            document.getElementById('step' + s).classList.add('active');
+        }
+    </script>
+</body>
+</html>
